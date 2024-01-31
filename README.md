@@ -15,7 +15,7 @@ Example with [folke/lazy.nvim]:
 
 ```lua
 use {
-  'vianney.g/linear.nvim',
+  'vianney-g/linear.nvim',
   requires = {
     'nvim-lua/plenary.nvim',
     'nvim-telescope/telescope.nvim',
@@ -41,3 +41,5 @@ Fuzzy search for issues belonging to a team:
 ```vim
 :lua require'linear'.issues{team = 'TEAM'}
 ```
+
+This will open a Telescope finder. Selecting a Linear issue will copy the branch name of the selected issue inside the current buffer.
