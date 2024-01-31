@@ -30,6 +30,10 @@ The call to `setup()` will prompt you for your Linear API key at the first call.
 
 ## Usage
 
+Until now the only use case is to fuzzy find issue to copy the attached branch name to the current buffer.
+(more to come).
+
+
 Fuzzy search for issues assigned to you:
 
 ```vim
