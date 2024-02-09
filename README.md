@@ -57,5 +57,16 @@ Not configurable yet.
 
 ## TODO
 
- - Detect the current ticket from the current branch name.
- - Make the keybindings configurable.
+ - [ ] Detect the current ticket from the current branch name.
+  - [ ] Go to the ticket page.
+  - [ ] Get the ticket information (title, description, etc.).
+  - [ ] Update the current ticket
+    - [ ] Change the status.
+    - [ ] Assign to someone.
+    - [ ] Add a comment.
+ - [ ] Make the keybindings configurable.
+ - [ ] Add others keybindings.
+   - [ ] Go to the ticket page.
+   - [ ] Checkout the branch.
+ - [ ] Add other filters to the issues finder.
+   - [ ] By status.
