@@ -46,4 +46,16 @@ Fuzzy search for issues belonging to a team:
 :lua require'linear'.issues{team = 'TEAM'}
 ```
 
-This will open a Telescope finder. Selecting a Linear issue will copy the branch name of the selected issue inside the current buffer.
+This will open a Telescope finder.
+
+## Keybindings
+
+Not configurable yet.
+
+ - Press <CR> to copy the ticket identifier to the current buffer.
+ - Press <C-b> to copy the branch name to the current buffer.
+
+## TODO
+
+ - Detect the current ticket from the current branch name.
+ - Make the keybindings configurable.
